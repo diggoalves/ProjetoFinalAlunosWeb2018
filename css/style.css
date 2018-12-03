@@ -1,0 +1,76 @@
+@font-face{
+    font-family: 'FashionFetish';
+    src: url(../fonts/Fashion\ Fetish\ Regular.ttf);
+    }
+    
+    @font-face{
+        font-family: 'futura-pt-medium';
+        src: url(../fonts/futura-pt-medium.otf);
+        }
+    /* link_fonts-termina */
+
+
+
+
+
+body, html {
+    height: 100%;
+}
+a{
+    font-family: 'FashionFetish';
+    padding: 15px;
+    color: #919D2D;
+}
+p{
+    font-family: 'FashionFetish';
+}
+h1{
+font-family: 'FashionFetish';
+}
+
+
+
+
+#menu{
+    background-color: #ffffff;
+    box-shadow: 0px 1px 10px rgb(71, 71, 71);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+#menu .links{
+    padding: 10px;
+    display: inline-block;
+    margin-right: 0px;
+    color: #919D2D;
+}
+#inicio{
+    background-image: url(../img/casa-frentet.gif);
+    height: 100%;
+}
+
+#fazenda{
+    background-color: #919D2D;
+    color: #ffffff;
+}
+
+#fotos{
+    color: #919D2D;
+    background-color: #ffffff
+}
+#acomodacoes{
+    background-color: #919D2D;
+    color: #ffffff
+}
+#video{
+    background-color: #ffffff;
+    color: #919D2D;
+}
+#sobrenos{
+    background-color: #919D2D;
+    color: #ffffff;
+}
+#contato{
+    background-color: #ffffff;
+    color: #919D2D;
+}
