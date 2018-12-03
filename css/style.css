@@ -37,6 +37,13 @@ font-family: 'FashionFetish';
     position: fixed;
     top: 0;
     width: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
+    /* DEFINE A IMPORTANCIA DA CAMADA. FUNCIONAMENTO IGUAL PHOTOSHOP */
+    z-index: 1;
+}
+#menu .bg-light{
+    background: #ffffff !important;
 }
 #menu .links{
     padding: 10px;
@@ -44,33 +51,63 @@ font-family: 'FashionFetish';
     margin-right: 0px;
     color: #919D2D;
 }
+#menu .links :hover{
+    color: rgb(85, 92, 24);
+
+}
 #inicio{
-    background-image: url(../img/casa-frentet.gif);
-    height: 100%;
+    /* BACKGROUND: url(caminho)vai_repetir? alin._Horizontal  alin._Vertical / Tamanho_ex(100% 100% ou cover ou contain) */
+    background: url(../img/casa-frentet.gif) no-repeat center center / cover;
+    /* VH SIGNIGIFICA VIEW HEIGHT SE REFERENCIA AO TAMANHO DA TELA */
+    height: 100vh;
 }
 
 #fazenda{
     background-color: #919D2D;
     color: #ffffff;
 }
-
+#fazenda .margin{
+    margin-bottom: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
 #fotos{
+    height: 100vh;
     color: #919D2D;
-    background-color: #ffffff
+    background-color: #ffffff;
+}
+#fotos .margin{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+#fotos .no-padding{
+    padding-left: 0px;
+    padding-right: 0px;
 }
 #acomodacoes{
     background-color: #919D2D;
-    color: #ffffff
+    color: #ffffff;
+    padding-left: 150px;
+    padding-right: 150px;
 }
+
 #video{
     background-color: #ffffff;
     color: #919D2D;
 }
+#video .margin{
+    padding-left: 150px;
+    padding-right: 150px;
+}
 #sobrenos{
     background-color: #919D2D;
     color: #ffffff;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 #contato{
     background-color: #ffffff;
     color: #919D2D;
+    padding-left: 150px;
+    padding-right: 150px;
 }
